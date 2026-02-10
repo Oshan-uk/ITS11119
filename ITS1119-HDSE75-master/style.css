@@ -1,4 +1,8 @@
-h4{
-    color: darkgray;
-    background-color: blue;
+@keyframes moveBox {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(200px);
+    }
 }
