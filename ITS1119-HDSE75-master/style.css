@@ -1,5 +1,6 @@
 .topic{
     font-size:40px;
+    font-style: italic;
     font-weight:bold;
     text-align: center;
 
@@ -7,4 +8,25 @@
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.navigation{
+    align-items: center;
+
+    justify-content:space-between;
+}
+
+.image{
+    transition: color;
+}
+
+.all{
+    text-align: center;
+    color: darkblue;
+    background-color: lightyellow;
+}
+
+h3#ko{
+    color: lightskyblue;
 }
